@@ -1,0 +1,119 @@
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#movies-card-container {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(28, 28, 96);
+    padding: 24px;
+}
+.contacts{
+    color: whitesmoke;
+    height: auto;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.sorting-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.soring-button {
+    width: 220px;
+    height: 30px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.tab {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 16px;
+}
+
+.favorites-tab {
+    width: 100px;
+    height: 30px;
+}
+
+.all-tab, .favorites-tab {
+    cursor: pointer;
+    color: blue;
+}
+
+/* THis is a class for active tabs .... */
+.active-tab {
+    background-color: green;
+    color: white;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid black;
+    padding: 12px;
+    background-color:rgb(212, 204, 209);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.votes-favorites {
+    display: flex;
+    justify-content: space-between
+}
+
+.favorites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.poster {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 15px;
+    margin: 5px;
+    
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background:  #304146;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
